@@ -1,23 +1,17 @@
 <template>
-  <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
-  </v-app>
+  <default-layout />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import DefaultLayout from './components/DefaultLayout.vue';
 
 export default {
-  name: "App",
+  name: 'App',
 
   components: {
-    HelloWorld,
+    DefaultLayout,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
